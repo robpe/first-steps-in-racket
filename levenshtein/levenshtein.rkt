@@ -1,8 +1,6 @@
 ; Levenshtein distance calculation
 #lang racket
 
-(require (planet dherman/memoize:3:1))
-
 (provide distance)
 (provide lmax)
 
